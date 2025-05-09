@@ -13,7 +13,7 @@ tokenizers==0.15.2
 sentencepiece==0.2.0
 torch==2.0.0
 transformers==4.35.2
-numba>=0.55.1
+numba==0.56.0 
 
 # Optional: For experiment tracking and logging (if used)
 wandb>=0.15.0
