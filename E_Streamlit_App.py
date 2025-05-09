@@ -22,7 +22,7 @@ X_embedded = umap_model.transform(X_vec)
 df["x"], df["y"] = X_embedded[:, 0], X_embedded[:, 1]
 
 # ---- Hugging Face login and model loading ----
-login(token="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")
+login(token="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")
 
 # Load the DistilBERT model and tokenizer with authentication
 classifier = DistilBertForSequenceClassification.from_pretrained("nimishmathur0503/interview-distilbert", use_auth_token=True)
